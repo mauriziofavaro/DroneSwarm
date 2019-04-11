@@ -28,10 +28,14 @@ Requirements
 **WARNING:**  
 If Python >= 3.3:
 on `test_TakeOff_and_directions.py`, `test_with_almost_full_stub_camera.py` and
-`test_formation_with_setup.py`, the line  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **from mock import Mock**  
-should be replaced with  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**from unittest.mock import Mock**
+`test_formation_with_setup.py`, the line 
+```python
+from mock import Mock
+```  
+should be replaced with
+```python
+from unittest.mock import Mock
+```
 
 
 
